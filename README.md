@@ -15,16 +15,6 @@ Cosine similarity based product matching using TF-IDF vectors
 
 Modular structure with config.py, data.py, and tools.py
 
-🗂️ Project Structure
-pricing-agent/
-│
-├── app.py                 # Main entry point with LangChain agent + Gradio interface
-├── config.py              # Stores OpenAI API key and environment variables
-├── data.py                # Product dataset, TF-IDF model, and embeddings
-├── tools.py               # Optimization tools (e.g., linear programming)
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
 git clone https://github.com/<your-username>/pricing-agent.git
